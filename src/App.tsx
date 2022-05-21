@@ -3,7 +3,7 @@ import { useState } from "react";
 import { Header } from "./components/Header";
 import { Dashboard } from "./components/Dashboard";
 import Modal from 'react-modal'
-import { NewTransactionModal } from "./components/NewTransactionModal/NewTransactionModal";
+import { NewTransactionModal } from "./components/NewTransactionModal";
 import { GlobalStyle } from "./styles/global";
 
 
