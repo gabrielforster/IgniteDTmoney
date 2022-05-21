@@ -27,9 +27,20 @@ export const Container = styled.div`
             line-height: 3rem;
         }
 
-        &.highlight-total{
+        &.goodTotal{
             background-color: var(--green);
             color: #fff;
         }
+
+        &.badTotal{
+          background-color: var(--red);
+            color: #fff;
+        }
+
+        &.okTotal{
+          background-color: var(--yellow);
+            color: #fff;
+        }
+
     }
 `
